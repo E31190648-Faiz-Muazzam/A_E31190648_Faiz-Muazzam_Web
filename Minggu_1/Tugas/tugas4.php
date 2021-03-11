@@ -66,40 +66,40 @@
 		
 	}
 
-
+	echo "<h1>Data dan Nilai</h1>";
 	//Membuat instance
 	$person = new pilihJurusanMIPA ();
-	echo $person -> nama="Faiz Muazzam";
+	echo "Nama : ".$person -> nama="Faiz Muazzam";
 	echo "<br>";
-	echo $person -> asal="Tulungagung";
+	echo "Asal :".$person -> asal="Tulungagung";
 	echo "<br>";
-	echo $person -> mm="100";
+	echo "Nilai Matematika :" .$person -> mm="100";
 	echo "<br>";
-	echo $person -> fisika="95";
+	echo "Nilai Fisika :" .$person -> fisika="95";
 	echo "<br>";
-	echo $person -> kimia="80";
+	echo "Nilai Kimia : " .$person -> kimia="80";
 	echo "<br>";
-	echo $person -> inggris="90";
+	echo "Nilai Bhs. Inggris : " .$person -> inggris="90";
 	echo "<br>";
-	echo $person -> biologi="80";
+	echo "Nilai Biologi : " .$person -> biologi="80";
 	echo "<br>";
-	echo $person -> kimia="80";
+	echo "Nilai Kimia : ".$person -> kimia="80";
 	echo "<br>";
 
-	echo "Jurusan Informatika <br>";
+	echo "<h3>Jurusan Informatika </h3>";
 	echo $person -> informatika();
 	echo "<br>";
-	echo "Jurusan Teknik <br>";
+	echo "<h3>Jurusan Teknik </h3>";
 	echo $person -> teknik();
 	echo "<br>";
-	echo "Jurusan kesehatan <br>";
+	echo "<h3>Jurusan kesehatan </h3>";
 	echo $person -> kesehatan();
 	echo "<br>";
-	echo "Rata Rata";
+	echo "<h4>Rata Rata</h4>";
 	$avg=$person -> avg();
 	echo $avg;
 	echo "<br>";
-	echo "Rekomendasi";
+	echo "<h4>Rekomendasi Sekolah :</h4>";
 	echo $person -> univ($avg);
 	echo "<br>";
 
