@@ -1,5 +1,7 @@
 <?php
-
+/**
+* author by Faiz Muazzam
+ */
 class Car {
 
 	//private
@@ -7,7 +9,7 @@ class Car {
 	// agar dapat menampilkan nilai dari property private maka nilai harus di deklarasikan terlebih dulu, contoh
 	// private $model="Marcedes Benz"; 
 
-	function getModel()
+	public function getModel()
 	{
 		return "The car model is " . $this -> model;
 	}
