@@ -1,4 +1,7 @@
 <?php
+/**
+* author by Faiz Muazzam
+*/
 //Declare class
 class kendaraan {
 	//properties
