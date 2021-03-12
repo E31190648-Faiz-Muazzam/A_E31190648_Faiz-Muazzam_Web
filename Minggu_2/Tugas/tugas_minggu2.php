@@ -1,6 +1,6 @@
 <?php 
 /**
- * 
+ * author by Faiz Muazzam
  */
 // soal 1
 class Laptop
