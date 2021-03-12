@@ -1,4 +1,7 @@
 <?php
+/**
+ * author by Faiz Muazzam
+ */
 class Car {
 	
 	public $tank;
