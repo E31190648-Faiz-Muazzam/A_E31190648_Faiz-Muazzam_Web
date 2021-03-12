@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * author by Faiz Muazzam
+ */
 class Car {
 
 	//public methods & properties.
