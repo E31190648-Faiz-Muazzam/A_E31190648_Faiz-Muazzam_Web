@@ -83,8 +83,6 @@
 	echo "<br>";
 	echo "Nilai Biologi : " .$person -> biologi="80";
 	echo "<br>";
-	echo "Nilai Kimia : ".$person -> kimia="80";
-	echo "<br>";
 
 	echo "<h3>Jurusan Informatika </h3>";
 	echo $person -> informatika();
@@ -102,9 +100,4 @@
 	echo "<h4>Rekomendasi Sekolah :</h4>";
 	echo $person -> univ($avg);
 	echo "<br>";
-
-
-
-
-
  ?>
