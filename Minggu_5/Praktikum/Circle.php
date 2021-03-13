@@ -12,7 +12,7 @@
 		private $radius;
 		private $pi;
 
-		// membuat konstruksi agar property dapat di idenfikasi langsung saat memanggil class
+		// Constructor adalah method atau function yang otomatis akan dijalankan saat class diinstansiasi (dibuat sebuah object)
 		public function __construct($radius)
 		{
 			$this -> radius = $radius;
