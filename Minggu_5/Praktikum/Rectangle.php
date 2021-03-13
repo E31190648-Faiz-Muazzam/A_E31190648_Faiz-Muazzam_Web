@@ -11,7 +11,7 @@
 		private $width;
 		private $height;
 
-		// membuat konstruksi agar property dapat di idenfikasi langsung saat memanggil class
+		// Constructor adalah method atau function yang otomatis akan dijalankan saat class diinstansiasi (dibuat sebuah object)
 		public function __construct($width,$height)
 		{
 			$this -> width = $width;
