@@ -1,0 +1,16 @@
+body {
+	background: radial-gradient(circle at top right, #1a0a00, #3b1700);  
+}
+h2 {
+	margin-top: 250px;
+	text-align: center;
+	padding-bottom: 10px;
+	color: #f59219;
+	font-size: 20px;
+	border-bottom: dashed 1px #7fb776;
+	}
+p {
+	color: #fbd688;
+	text-align: center;
+	font-style: italic;
+}
