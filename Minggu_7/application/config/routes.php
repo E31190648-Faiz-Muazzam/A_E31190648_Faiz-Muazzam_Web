@@ -53,6 +53,11 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+// Tugas no 2
+$route['Kode_tugas2/(:any)'] = 'Kode_tugas2/hello/$1';
+$route['Kode2_tugas2/(:any)'] = 'Kode2_tugas2/remap/$1';
+
+
 // // Kegiatan Praktikum
 // $route['default_controller'] = 'praktikum_minggu7/profil';
 // $route['default_controller'] = 'praktikum_minggu7/contact';
