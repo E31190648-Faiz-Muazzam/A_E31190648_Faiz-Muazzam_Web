@@ -1,7 +1,7 @@
 <?php 
 // membuat class model, dengan syarat nama file sama dengan nama Class
 class Prodi_model extends CI_Model {
-	public function get_data(){
+	public function get_prodi(){
 		// idenfikasi variable
 		$data_prodi = [
 			["prodi"=>"MIF","keterangan"=>"Manajemen Informatika"],
