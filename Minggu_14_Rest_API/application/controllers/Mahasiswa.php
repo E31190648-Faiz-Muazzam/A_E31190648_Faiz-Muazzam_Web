@@ -10,6 +10,7 @@ class Mahasiswa extends CI_Controller {
 		$this->load->model('Mahasiswa_model');
 		$this->load->model('Grup_model');
 
+
 	}
 
 	// membuat fungsi tambah yang di gunakan untuk menampilkan from tambah data pada praktikum kali ini
@@ -184,7 +185,11 @@ class Mahasiswa extends CI_Controller {
 		}
 	}
 
-
+	 public function user()
+    {
+    	$data['admin'] = $this->Grup_model->getAllGrup()->result();
+    	$this->template->views('crud/user', $data);
+    }
 
 
 }

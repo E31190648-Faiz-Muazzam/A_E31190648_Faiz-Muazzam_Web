@@ -186,5 +186,11 @@ class Mahasiswa extends CI_Controller {
 		}
 	}
 
+	 public function user()
+    {
+    	$data['admin'] = $this->Grup_model->getAllGrup()->result();
+    	$this->template->views('crud/user', $data);
+    }
+
 
 }

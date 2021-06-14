@@ -53,13 +53,14 @@ class Mahasiswa_model extends CI_Model {
 		$this->db->delete($table);
 	} 
 
+	// Membuat fungsi login untuk implementasi aksi login
 	public function login($user,$pass,$table) {
-		$this->db->select('*');
-		$this->db->from('tm_user');
-		$this->db->where('username',$user);
-		$this->db->where('password',$pass);
-		$query = $this->db->get();
-		return $query;
+		$this->db->select('*'); //build query untuk menampilkan data
+		$this->db->from('tm_user'); //build query untuk menentukan table yang akan di gunakan
+		$this->db->where('username',$user); //build query untuk mencari username dan membandingkanya dengan input user
+		$this->db->where('password',$pass); //build query untuk mencari password dan membandingkanya dengan input user
+		$query = $this->db->get(); //menangkap semua aksi di atas dan menyimpanya di dalam variabel $query
+		return $query; //mengembalikan variabel $query
 	}
 
 	public function cek_login()

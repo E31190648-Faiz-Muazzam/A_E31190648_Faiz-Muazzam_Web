@@ -88,5 +88,4 @@ class Grup extends CI_Controller {
 		redirect('Grup');
 	}
 
-
 }
